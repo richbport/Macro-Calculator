@@ -54,3 +54,10 @@ body {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
       color: white; /* Ensures header text is white */
     }
+
+    header .logo { /* Target logo specifically in the main header */
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
