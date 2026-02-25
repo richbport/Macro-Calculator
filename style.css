@@ -50,4 +50,7 @@ body {
       justify-content: space-between; /* Space between logo and date display */
       align-items: center;
       padding: 15px 20px;
+      background-color: rgb(4, 9, 29); /* Dark blue header background */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      color: white; /* Ensures header text is white */
     }
