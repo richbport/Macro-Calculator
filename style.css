@@ -61,3 +61,26 @@ body {
       display: flex;
       align-items: center;
     }
+
+    #app-title { /* Ensuremain app title is white */
+      color: white;
+    }
+
+    /*  =====================
+        DATE DISPLAY
+        ===================== */
+
+    .date-display {
+      text-align: right;
+    }
+
+    .day {
+      font-weight: bold;
+    }
+
+    .full-date,
+    #currentDate {
+      color: rgb(89, 82, 209); /* Accent color for the date */
+    }
+
+    
