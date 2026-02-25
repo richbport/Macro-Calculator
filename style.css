@@ -12,3 +12,18 @@ html {
     height: 100%;
     overflow: hidden; /* Prevent overall page scrolling */
 }
+
+body {
+    background-color: rgb(25, 25, 25); /* Dark background for the main page */
+    color: white; /* Default text color for the main layout */
+}
+
+/*  =====================
+    MAIN LAYOUT STRUCTURE
+    ===================== */
+
+    .container {
+      display: flex;
+      height: calc(100vh - 67px); /* Subtract header height (approx 67px) */
+      overflow: hidden; /* Prevent container cotent from overflowing */
+    }
