@@ -44,3 +44,10 @@ body {
     /*  =====================
         HEADER STYLES (Main App Header)
         ===================== */
+
+    header {
+      display: flex;
+      justify-content: space-between; /* Space between logo and date display */
+      align-items: center;
+      padding: 15px 20px;
+    }
