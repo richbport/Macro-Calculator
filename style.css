@@ -40,3 +40,7 @@ body {
       overflow: auto; /* Allow scrolling within main content if needed */
       flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     }
+
+    /*  =====================
+        HEADER STYLES (Main App Header)
+        ===================== */
