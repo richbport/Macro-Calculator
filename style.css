@@ -166,3 +166,9 @@ body {
     CURRENT PROJECT CSS PART 1
     ========================== */
 
+.calculator-container {
+  background-color: rgb(29, 29, 29); /* Dark background for the calculator itself */
+  padding: 30px;
+  border-radius: 15px; /* Consistent with other dashboard elements */
+}
+
