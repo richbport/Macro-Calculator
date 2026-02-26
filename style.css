@@ -182,3 +182,10 @@ body {
   overflow: auto; /* Allow internal scrolling if content is too long */
 }
 
+/* Specific header for the calculator within its container */
+.calculator-header {
+  margin-bottom: 25px; /* Space below the calculator's header */
+  padding: 15px;
+  border-bottom: 1px solid rgb(68, 68, 68); /* Subtle separator */
+}
+
