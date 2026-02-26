@@ -174,5 +174,9 @@ body {
   flex: 0 0 auto; /* Don't grow, don't shrink, base on content width */
   width: 100%; /* Take full width of  main-content, if available */
   text-align: center;
+  box-sizing: border-box;
+  display: flex; /* Make it a flex container for its internal header, input, results */
+  flex-direction: column; /* Stack its internal sections vertically */
+  height: fit-content; /* Adjust height based on content */
 }
 
