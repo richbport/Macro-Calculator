@@ -178,5 +178,7 @@ body {
   display: flex; /* Make it a flex container for its internal header, input, results */
   flex-direction: column; /* Stack its internal sections vertically */
   height: fit-content; /* Adjust height based on content */
+  max-height: 100%; /* Ensure it doesn't overflow parent */
+  overflow: auto; /* Allow internal scrolling if content is too long */
 }
 
