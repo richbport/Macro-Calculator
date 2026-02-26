@@ -150,3 +150,11 @@ body {
   align-items: center;
   transition: background-color 0.3s ease;
 }
+
+.sidebar-button:hover {
+  background-color: rgba(89, 82, 209, 0.2);
+}
+
+.sidebar-button.active {
+  background-color: rgb(89, 82, 209); /* Active button accent color */
+}
