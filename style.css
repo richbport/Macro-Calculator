@@ -129,3 +129,19 @@ body {
   opacity: 0.8;
   color: rgb(187, 187, 187); /* Lighter color for email */
 }
+
+.sidebar-button {
+  background-color: transparent; /* Default transparent background */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
