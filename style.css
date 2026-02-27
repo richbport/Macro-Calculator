@@ -1,93 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gabarito:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Shrikhand&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Gabarito", serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", serif;
 }
 
 body,
 html {
-    height: 100%;
-    overflow: hidden; /* Prevent overall page scrolling */
+  height: 100%;
+  overflow: hidden; /* Prevent overall page scrolling */
 }
 
 body {
-    background-color: rgb(25, 25, 25); /* Dark background for the main page */
-    color: white; /* Default text color for the main layout */
+  background-color: rgb(25, 25, 25); /* Dark background for the main page */
+  color: white; /* Default text color for the main layout */
 }
 
 /*  =====================
     MAIN LAYOUT STRUCTURE
     ===================== */
 
-    .container {
-      display: flex;
-      height: calc(100vh - 67px); /* Subtract header height (approx 67px) */
-      overflow: hidden; /* Prevent container cotent from overflowing */
-    }
+.container {
+  display: flex;
+  height: calc(100vh - 67px); /* Subtract header height (approx 67px) */
+  overflow: hidden; /* Prevent container cotent from overflowing */
+}
 
-    .main-content {
-      flex-grow: 1; /*Allows main content to take available space */
-      padding: 20px;
-      padding-top: 50px; /* Added space from the top */
-      display: flex; /* Enables flex layout for its children (e.g., calculator) */
-      justify-content: center; /* Center items horizontally */
-      align-items: flex-start; /* Aligns items to the top */
-      gap: 20px; /* Space between flex items */
-      height: 100%;
-      overflow: auto; /* Allow scrolling within main content if needed */
-      flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    }
+.main-content {
+  flex-grow: 1; /*Allows main content to take available space */
+  padding: 20px;
+  padding-top: 50px; /* Added space from the top */
+  display: flex; /* Enables flex layout for its children (e.g., calculator) */
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Aligns items to the top */
+  gap: 20px; /* Space between flex items */
+  height: 100%;
+  overflow: auto; /* Allow scrolling within main content if needed */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
 
-    /*  =====================
+/*  =====================
         HEADER STYLES (Main App Header)
         ===================== */
 
-    header {
-      display: flex;
-      justify-content: space-between; /* Space between logo and date display */
-      align-items: center;
-      padding: 15px 20px;
-      background-color: rgb(4, 9, 29); /* Dark blue header background */
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-      color: white; /* Ensures header text is white */
-    }
+header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and date display */
+  align-items: center;
+  padding: 15px 20px;
+  background-color: rgb(4, 9, 29); /* Dark blue header background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: white; /* Ensures header text is white */
+}
 
-    header .logo { /* Target logo specifically in the main header */
-      font-size: 24px;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-    }
+header .logo {
+  /* Target logo specifically in the main header */
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
 
-    header .logo img {
-      height: 36px;
-      margin-right: 10px;
-    }
+header .logo img {
+  height: 36px;
+  margin-right: 10px;
+}
 
-    #app-title { /* Ensuremain app title is white */
-      color: white;
-    }
+#app-title {
+  /* Ensuremain app title is white */
+  color: white;
+}
 
-    /*  =====================
+/*  =====================
         DATE DISPLAY
         ===================== */
 
-    .date-display {
-      text-align: right;
-    }
+.date-display {
+  text-align: right;
+}
 
-    .day {
-      font-weight: bold;
-    }
+.day {
+  font-weight: bold;
+}
 
-    .full-date,
-    #currentDate {
-      color: rgb(89, 82, 209); /* Accent color for the date */
-    }
-
+.full-date,
+#currentDate {
+  color: rgb(89, 82, 209); /* Accent color for the date */
+}
 
 /*  =====================
     SIDEBAR STYLES
@@ -167,7 +168,11 @@ body {
     ========================== */
 
 .calculator-container {
-  background-color: rgb(29, 29, 29); /* Dark background for the calculator itself */
+  background-color: rgb(
+    29,
+    29,
+    29
+  ); /* Dark background for the calculator itself */
   padding: 30px;
   border-radius: 15px; /* Consistent with other dashboard elements */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Consistent shadow */
@@ -188,4 +193,3 @@ body {
   padding: 15px;
   border-bottom: 1px solid rgb(68, 68, 68); /* Subtle separator */
 }
-
