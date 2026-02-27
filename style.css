@@ -205,4 +205,8 @@ header .logo img {
   margin-right: 15px;
 }
 
-
+.app-title-calculator {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
