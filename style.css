@@ -193,3 +193,10 @@ header .logo img {
   padding: 15px;
   border-bottom: 1px solid rgb(68, 68, 68); /* Subtle separator */
 }
+
+.calculator-header .logo { 
+  justify-content: center; 
+  margin-bottom: 0;
+}
+
+
