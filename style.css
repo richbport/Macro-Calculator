@@ -205,8 +205,8 @@ header .logo img {
   margin-right: 15px;
 }
 
-.app-title-calculator {
-  color: white;
+.app-title-calculator { /* Specific style for the calculator title */
+  color: white; /* Ensure calculator title is visible on dark background */
   font-size: 2.2rem;
   font-weight: bold;
 }
