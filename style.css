@@ -211,6 +211,7 @@ header .logo img {
   font-weight: bold;
 }
 
+/* Styling for the input section within the calculator */
 section#input {
-  margin-bottom: 25px;
+  margin-bottom: 25px; /* Space below the input section */
 }
