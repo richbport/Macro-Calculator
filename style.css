@@ -210,3 +210,7 @@ header .logo img {
   font-size: 2.2rem;
   font-weight: bold;
 }
+
+section#input {
+  margin-bottom: 25px;
+}
